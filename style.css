@@ -1,0 +1,141 @@
+.middle{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.single-players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.single-player{
+    width:330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    background: #FFFFFF;
+}
+.single-player img{
+    width:100%;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    width:330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    background: #FFFFFF;
+}
+.player img{
+    width:100%;
+}
+.informations{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 165px;
+}
+.center{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.information{
+    width:482px;
+   
+   
+}
+.player-info{
+    width:567px;
+}
+.player-info img{
+    width:100%;
+}
+.primary{
+     background: #E02C6D;
+     margin: 24px 0px;
+     width:173px;
+     height: 44px;
+     color:#FFFFFF
+}
+.football-info{
+    margin-top: 156px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.bootball-image{
+    width: 483.87px;
+    height: 111px;
+}
+.bootball-image img{
+    width:100%;
+}
+/* .football-icon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+} */
+/* .football img{
+    width:100%;
+} */
+/* .football{
+    
+    margin: 20px 0px;
+    width: 170px;
+    height: 27px;
+} */
+.football{
+    text-align: center;
+}
+.coperight{
+    margin: 20px 0px;
+    text-align: center;
+}
+.cup-titles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(38, 38, 204);
+    margin-bottom: 11px;
+
+}
+.cup-theme{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.cup{
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:500px
+}
+.logo img{
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width:688px){
+    .cup-titles, .players, .football-team, .informations{
+        /* background-color: #E02C6D; */
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .middle{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    
+}
